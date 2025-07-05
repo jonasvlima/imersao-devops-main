@@ -19,14 +19,18 @@ Este projeto é uma API desenvolvida com FastAPI para gerenciar alunos, cursos e
    ```
 
 3. **Ative o ambiente virtual:**
-   - No Linux/Mac:
-     ```sh
-     source venv/bin/activate
-     ```
-   - No Windows:
-     ```sh
-     venv\Scripts\activate
-     ```
+- No Linux/Mac:
+    ```sh
+   source venv/bin/activate
+   ```
+   - No Windows, abra um terminal no modo administrador e execute o comando:
+   ```sh
+   Set-ExecutionPolicy RemoteSigned
+   ```
+
+   ```sh
+   venv\Scripts\activate
+   ```
 
 4. **Instale as dependências:**
    ```sh
